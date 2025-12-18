@@ -2,10 +2,7 @@
 
 MediAssist is a rule-based clinical expert system developed in Python that provides preliminary medical guidance based on user-reported symptoms.
 The system applies expert system principles from Artificial Intelligence, using a binary decision tree to infer possible conditions, assess severity, and recommend appropriate medical actions or specialties.
-
 This project was developed as part of the CT-262: Introduction to Artificial Intelligence course.
-
-*⚠️ Disclaimer: MediAssist is an educational project and does not replace professional medical advice, diagnosis, or treatment.*
 
 Project Purpose
 
