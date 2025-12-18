@@ -8,10 +8,10 @@ Project Purpose
 
 The primary goal of MediAssist is to demonstrate the design and implementation of an AI-based expert system in a healthcare-inspired domain.
 The project focuses on:
-- Rule-based reasoning
-- Decision tree inference
-- Knowledge representation
-- User interaction and data logging
+  - Rule-based reasoning
+  - Decision tree inference
+  - Knowledge representation
+  - User interaction and data logging
 
 System Overview
 
@@ -24,34 +24,34 @@ Based on user responses, the system:
 
 Key Features
 
-🔹 Rule-Based Diagnosis
-- Binary decision tree structure
-- Yes/No symptom-driven questioning
-- Deterministic inference (no randomness or learning)
+**-Rule-Based Diagnosis**
+  - Binary decision tree structure
+  - Yes/No symptom-driven questioning
+  - Deterministic inference (no randomness or learning)
 
-🔹 Severity Assessment
+**-Severity Assessment**
 Each diagnosis is categorized into one of the following levels:
-- Low
-- Medium
-- High
-- Emergency
+  - Low
+  - Medium
+  - High
+  - Emergency
 Emergency cases explicitly advise immediate medical attention.
 
-🔹 Medical Specialty Recommendation
+**-Medical Specialty Recommendation**
 Depending on symptoms and severity, the system recommends relevant specialties, including:
-- General Practitioner
-- Emergency Medicine
-- Cardiology
-- Neurology
-- Pulmonology
-- Gastroenterology
-- Pediatrics (age-based)
+  - General Practitioner
+  - Emergency Medicine
+  - Cardiology
+  - Neurology
+  - Pulmonology
+  - Gastroenterology
+    -Pediatrics (age-based)
 
-🔹 Age-Based Adjustment
-- Automatically adapts recommendations for patients aged 18 or below
-- Applies pediatric referral logic where appropriate
+**-Age-Based Adjustment**
+  - Automatically adapts recommendations for patients aged 18 or below
+  - Applies pediatric referral logic where appropriate
 
-🔹 Patient Record Logging
+**-Patient Record Logging**
 Each session is logged in a persistent text file (patient_records.txt) containing:
   - Timestamp (Pakistan Standard Time)
   - Patient demographics
@@ -60,7 +60,7 @@ Each session is logged in a persistent text file (patient_records.txt) containin
   - Severity and specialty
   - Optional user feedback
 
-🔹 Weekly Case Summary
+**-Weekly Case Summary**
 The system can generate a weekly analytical summary, including:
   - Total number of cases
   - Distribution by severity
@@ -69,7 +69,7 @@ The system can generate a weekly analytical summary, including:
 
 System Architecture
 
-Component	                         Description
+**Component	**                     **Description**
 Knowledge Base	                   Hard-coded medical rules and conditions
 Inference Engine	                 Recursive decision tree traversal
 User Interface	                   Command Line Interface (CLI)
