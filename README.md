@@ -12,9 +12,9 @@ Project Objectives
 - To simulate real-world clinical decision-making
 - To log patient data and generate weekly analytical summaries
 
-**Key Features**
+Key Features
 
-🔹 Symptom-Based Diagnosis
+. Symptom-Based Diagnosis
 - Interactive yes/no questions
 - Binary decision tree traversal
 - Covers common symptoms such as:
@@ -23,7 +23,7 @@ Project Objectives
   - Injuries, infections
   - Allergies, dehydration, BP issues
 
-🔹 Severity Classification
+Severity Classification
 - Low
 - Medium
 - High
